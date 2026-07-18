@@ -2,7 +2,7 @@
 
 **AI-Powered Motor Repair for Farmers**
 
-Built by **Mailari Chatragaddi**
+Built by **Mailari Chatragudi**
 
 ---
 
@@ -138,7 +138,7 @@ npm install
 
 Create a `.env` file in the `backend` folder:
 ```
-PORT=5000
+PORT=3000
 ```
 
 Run the backend:
@@ -183,4 +183,4 @@ That difference is the crop. That difference is the farmer's income.
 
 > "I know what a burnt winding smells like. I know how a farmer's face looks when his motor fails during summer."
 > 
-> — Mailari Chatragaddi, Founder
+> — Mailari Chatragudi, Founder

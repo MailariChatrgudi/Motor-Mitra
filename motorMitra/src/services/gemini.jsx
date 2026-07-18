@@ -2,7 +2,6 @@
 // Known faults with parts and tools info
 // Built from real motor winding knowledge
 const faultPartsMap = {
-    
   // Faults that need motor to be pulled out of borewell
   "Winding burnout": {
     requiresPullingVehicle: true,
