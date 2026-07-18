@@ -2,7 +2,7 @@
 
 **AI-Powered Motor Repair for Farmers**
 
-Built by **Mailari Chatragaddi**
+Built by **Mailari Chatragudi**
 
 ---
 
@@ -122,7 +122,7 @@ npm install
 Create a `.env` file in the `motorMitra` folder:
 ```
 VITE_OPENROUTER_KEY=your_openrouter_api_key_here
-VITE_BACKEND_URL=http://localhost:5000
+VITE_BACKEND_URL=http://localhost:3000
 ```
 
 Run the frontend:
@@ -183,4 +183,4 @@ That difference is the crop. That difference is the farmer's income.
 
 > "I know what a burnt winding smells like. I know how a farmer's face looks when his motor fails during summer."
 > 
-> — Mailari Chatragaddi, Founder
+> — Mailari Chatragudi, Founder
