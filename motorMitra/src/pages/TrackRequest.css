@@ -10,6 +10,7 @@
   margin: 0 auto;
   padding: 28px 24px 60px;
   font-family: var(--tr-font);
+  text-align: center;
 }
 
 /* Page header */
@@ -479,25 +480,27 @@
   .tr-timer-display { font-size: 2.5rem; }
   .tr-steps { gap: 4px; }
   .tr-step-label { font-size: 0.62rem; }
+}
 
 /* ── RATING COMPONENT ── */
 .tr-rating-card {
   text-align: center;
-  padding: 24px;
+  padding: 48px 24px;
+  background: linear-gradient(to bottom, #ffffff, #f8fafc);
 }
 
 .tr-stars {
   display: flex;
   justify-content: center;
-  gap: 12px;
-  margin: 16px 0 24px;
+  gap: 16px;
+  margin: 24px 0;
 }
 
 .tr-star {
-  font-size: 2.5rem;
-  color: #e2e8f0;
+  font-size: 4.5rem;
+  color: #cbd5e1;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tr-star:hover {
@@ -505,7 +508,8 @@
 }
 
 .tr-star.active {
-  color: #f59e0b;
+  color: #fbbf24;
+  text-shadow: 0 0 16px rgba(251, 191, 36, 0.4);
 }
 
 .tr-rating-submit {
@@ -524,4 +528,4 @@
 .tr-rating-submit:hover {
   background: #15552f;
   transform: translateY(-2px);
-}}
+}

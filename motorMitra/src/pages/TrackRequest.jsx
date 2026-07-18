@@ -185,7 +185,7 @@ const TrackRequest = ({ lang }) => {
             </div>
           )}
 
-          {/* Rating Section (Visible only when Complete) */}
+
           {request.status === 'Complete' && (
             <div className="tr-card tr-rating-card">
               <h2 className="tr-card-title">{t.rateMechanic}</h2>
@@ -201,7 +201,7 @@ const TrackRequest = ({ lang }) => {
                     onMouseEnter={() => setHoverRating(star)}
                     onMouseLeave={() => setHoverRating(0)}
                   >
-                    ★
+                    {star <= (hoverRating || rating) ? '★' : '☆'}
                   </span>
                 ))}
               </div>

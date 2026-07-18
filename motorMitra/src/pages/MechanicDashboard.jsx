@@ -199,11 +199,6 @@ const MechanicDashboard = ({ lang }) => {
           </div>
         </div>
 
-        {/* What this app does — quick info */}
-        <div className="md-info-tip">
-          <p>🔄 {t.dashRefreshTip} <strong>{t.dashRefreshSec}</strong> {t.dashRefreshAuto}</p>
-        </div>
-
       </aside>
 
       {/* RIGHT CONTENT AREA */}

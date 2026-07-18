@@ -7,12 +7,15 @@ require('dotenv').config();
 
 const repairRequests = []
 
-const corsOptions = {
-    origin: 'http://localhost:5173',
-    credentials: true,
-};
 
-app.use(cors(corsOptions));
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://motor-mitra.vercel.app'
+  ],
+  methods: ['GET', 'POST', 'PATCH'],
+  credentials: true
+}))
 
 app.use(express.json());
 
@@ -146,6 +149,6 @@ app.patch('/api/requests/:id/complete', (req, res) => {
     }
 })
 
-app.listen(3000, () => {
-    console.log('server started at http://localhost:3000')
+app.listen(process.env.PORT || 3000, () => {
+    console.log('server started at http://localhost:'+process.env.PORT)
 })
